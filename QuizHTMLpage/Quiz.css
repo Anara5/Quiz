@@ -1,0 +1,103 @@
+h1{         /* Rubrik */
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    margin: 0em;
+    font-family: 'Nosifer', cursive;
+}
+header{     /* Knappar och rubrik style */
+    border-style: solid;
+    text-align: center;
+    background-color: rgba(191, 202, 209, 0.288);
+    color: rgb(0, 0, 0);
+}
+body{       /* Bakgrund */
+    background-color: rgb(228, 246, 255);
+    background-image: url('https://www.openaccessgovernment.org/wp-content/uploads/2019/09/dreamstime_xxl_123015144.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Butt1{     /* Knappar */
+    background-color: rgb(72, 183, 228);
+    color: rgb(0, 33, 53);
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    font-family: 'Modak', cursive;
+    transition: width 0s;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    margin: 0;
+    top: 20%;
+    left: 23%;
+}
+.Butt1:hover{  /* Vad som händer när man hovrar över knapparna */
+    background-color: rgb(23, 56, 78);
+    color: rgb(253, 253, 253);
+    width: 200px;
+    font-size: 16x;
+    height: 25%;
+}
+.Butt2{     /* Vi fick ha två för att dom ska vara på olika platser */
+    background-color: rgb(72, 183, 228);
+    color: rgb(0, 33, 53);
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    font-family: 'Modak', cursive;
+    transition: width 0s;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    margin: 0;
+    top: 20%;
+    left: 68%;
+
+}
+.Butt2:hover{  /* Vad som händer när man hovrar över knapparna */
+    background-color: rgb(23, 56, 78);
+    color: rgb(253, 253, 253);
+    width: 17%;
+    font-size: 16x;
+    height: 30%;
+
+}
+.more{      /*Texten som kommer upp när man håller över*/
+    display: none;
+}
+button:hover .more{
+    display: inline-block;
+}
+
+#highscore{       /* Highscore style */
+   background-color: rgba(236, 229, 229, 0.459);
+   color: rgb(35, 37, 128);
+   font-size: 25px;
+   text-align: left;
+   padding: 50px;
+   margin: 50px;
+   border: 2px solid rgb(0, 33, 53);
+   width: 300px;
+   font-family: 'Modak', cursive;
+   position: absolute;
+   margin: 0;
+   top: 30%;
+   left: 37%;
+   
+}
+
+footer{      /* Footer design*/
+    border-style: solid;
+    background-color: rgba(191, 202, 209, 0.288);
+    bottom: 0px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+
+}
+
+.text{      /* texter till footern*/
+    color: rgb(255, 255, 255);
+}
